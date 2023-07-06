@@ -1,0 +1,143 @@
+body{
+    padding: 100px;
+    margin: 100px;
+
+}
+.container{
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #E4405F;
+    margin-left: 20px;
+   
+}
+.img1{
+    padding-left: 140px;
+    width: 70px;
+    height: 70px;
+    margin-top: 25px;
+}
+p{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+    color: white;
+}
+h2{
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: white;
+}
+img{
+    height: 70px;
+    padding-left: 140px;
+    margin-top: 25px;
+}
+
+.container2{
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 20px;
+}
+.twi{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 120px;
+
+}
+.twi2{
+    color: black;
+}
+.container3{
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 20px;
+}
+.you{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 120px;
+
+}
+.you1{
+    color: black;
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover{
+  
+    background-color: lightblue;}
+.button{
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b3{
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+.button{
+    height: 40px;
+    width: 200px;
+    padding-left: 170px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+.b3{
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+.button{
+    height: 40px;
+    width: 200px;
+    padding-left: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.b3{
+    padding-left: 70px;
+    padding-bottom: 50px;
+}
+@media screen  and (max-width:1028px){
+    .all{
+        display: flex;
+        flex-direction: column;
+    }
+       
+    body{
+        overflow-x: hidden;
+        padding: 0;
+    margin: 0;
+
+    }
+    .container2{
+        width: 250px;
+        margin-left: 0;
+    }
+    .container{
+        width: 250px;
+        margin-left: 0;
+    }
+    .container3{
+        width: 250px;
+        margin-left: 0;
+    }
+  
+    }
+    
+    
+
